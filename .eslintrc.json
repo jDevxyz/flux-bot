@@ -1,0 +1,27 @@
+{
+    "parser": "@typescript-eslint/parser",
+    "plugins": [
+        "@typescript-eslint"
+    ],
+    "rules": {
+        "no-console": "off",
+        "no-extra-semi": "warn",
+        "no-unused-vars": "off",
+        "no-unused-expressions": "warn",
+        "no-unused-labels": "warn",
+        "semi": "off",
+        "getter-return": "error",
+        "sort-imports": "off",
+        "quotes": [
+            "warn",
+            "double",
+            {
+                "avoidEscape": true
+            }
+        ]
+    },
+    "parserOptions": {
+        "sourceType": "module",
+        "project": "./tsconfig.json"
+    }
+}
